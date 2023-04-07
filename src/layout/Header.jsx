@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex w-full sm:w-4/5 mx-auto items-center justify-evenly ">
+    <div className="flex w-full sm:w-4/5 mx-auto items-center justify-evenly">
       <div
         id="img-container"
         className="w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24 rounded-full shadow-sm transition-all duration-200"
@@ -47,7 +47,7 @@ const Header = () => {
       ></i>
       {mobileNav && (
         <div
-          className="w=full h-screen overflow-y-hidden flex flex-col bg-white dark:black absolute bottom-0 left-0 right-0 top-0 justify-center items-center space-y-10 transition-all duration-1000 font-semibold"
+          className="w=full h-screen overflow-y-hidden flex flex-col bg-white dark:bg-black absolute bottom-0 left-0 right-0 top-0 justify-center items-center space-y-10 transition-all duration-1000 font-semibold"
           style={{
             backgroundImage:
               'url("https://www.transparenttextures.com/patterns/otis-redding.png")',
@@ -60,7 +60,7 @@ const Header = () => {
             {" "}
             <i className="fa-solid fa-xmark dark:text-white text-black cursor-pointer "></i>
           </button>
-          <Navlink setMobileNav={setMobileNav} />
+          <Navlink />
         </div>
       )}
     </div>

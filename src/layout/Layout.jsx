@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import Header from "./Header";
+import Socials from "./Socials";
 
 const Layout = ({ children, title, description, keywords }) => {
   return (
@@ -17,6 +18,7 @@ const Layout = ({ children, title, description, keywords }) => {
           <Header />
         </React.StrictMode>
         <main className="">{children}</main>
+        <Socials />
         <Footer />
       </div>
     </>
