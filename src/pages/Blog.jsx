@@ -9,7 +9,11 @@ const Blog = () => {
         <h1 className="w-full text-zinc-600 dark:text-white font-semibold text-xl md:text-3xl lg:w-4/5 mx-auto">
           Blogs
         </h1>
-        <Link className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
+        <Link
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          to="https://priyanshshrivastava.hashnode.dev/destructuring-arrays-in-javscript"
+          target="_blank"
+        >
           <div id="blog-desc" className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               How Destructuring works in JavaScript
@@ -22,7 +26,11 @@ const Blog = () => {
           </div>
           <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
         </Link>
-        <Link className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
+        <Link
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          to="https://priyanshshrivastava.hashnode.dev/hoisting-in-javascript"
+          target="_blank"
+        >
           <div id="blog-desc" className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Understanding Hoisting in JavaScript.
@@ -36,7 +44,11 @@ const Blog = () => {
           </div>
           <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
         </Link>
-        <Link className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100  rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
+        <Link
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100  rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          to="https://priyanshshrivastava.hashnode.dev/git-and-github-how-i-understand-it-part-1"
+          target="_blank"
+        >
           <div id="blog-desc" className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Git and GitHub Guide in 2023.
