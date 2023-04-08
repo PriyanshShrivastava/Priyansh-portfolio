@@ -31,15 +31,7 @@ const Navlink = ({ setMobileNav }) => {
         </Link>
         <div className="w-full bg-black h-[0.075rem] dark:bg-zinc-600 scale-0 peer-hover:scale-100 transition-all duration-300"></div>
       </div>
-      <div>
-        <Link
-          to="/bookmarks"
-          className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-        >
-          Bookmarks
-        </Link>
-        <div className="w-full bg-black h-[0.075rem] dark:bg-zinc-600 scale-0 peer-hover:scale-100 transition-all duration-300"></div>
-      </div>
+
       <div>
         <Link
           to="/skills"

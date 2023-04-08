@@ -9,7 +9,7 @@ const Hompage = () => {
           Who am I ?
         </h2>
         <p className="text-zinc-600 dark:text-white text-md md:text-lg px-8 md:px-32 break-words ">
-          As a{" "}
+          I'm a{" "}
           <span className="text-zinc-800 dark:text-white font-semibold underline underline-offset-2 ">
             Full stack developer{" "}
           </span>

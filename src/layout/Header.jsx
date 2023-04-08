@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ThemeState } from "../contexts/Themecontext";
 import Navlink from "../helper/Navlink";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isThemeChanged, setIsThemeChanged] = useState(false);
@@ -12,16 +13,15 @@ const Header = () => {
     setIsThemeChanged((prev) => !prev);
   };
 
-  console.log(theme);
-
   return (
     <div className="flex w-full sm:w-4/5 mx-auto items-center justify-evenly">
-      <div
+      <Link
+        to="/"
         id="img-container"
         className="w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24 rounded-full shadow-sm transition-all duration-200"
       >
         <img src="assets/1.jpg" className="w-full rounded-full brightness-90" />
-      </div>
+      </Link>
       <div className="flex flex-col space-y-2 lg:space-y-6">
         <h1 className="text-black dark:text-white font-semibold text-lg md:text-2xl">
           {" "}
