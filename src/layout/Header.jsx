@@ -12,6 +12,8 @@ const Header = () => {
     setIsThemeChanged((prev) => !prev);
   };
 
+  console.log(theme);
+
   return (
     <div className="flex w-full sm:w-4/5 mx-auto items-center justify-evenly">
       <div

@@ -8,7 +8,6 @@ const Navlink = ({ setMobileNav }) => {
         <Link
           to="/"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
         >
           Home
         </Link>
@@ -18,7 +17,6 @@ const Navlink = ({ setMobileNav }) => {
         <Link
           to="/blogs"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
         >
           Blogs
         </Link>
@@ -26,9 +24,8 @@ const Navlink = ({ setMobileNav }) => {
       </div>
       <div>
         <Link
-          to="projects"
+          to="/projects"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
         >
           Projects
         </Link>
@@ -36,19 +33,8 @@ const Navlink = ({ setMobileNav }) => {
       </div>
       <div>
         <Link
-          to="contact"
+          to="/bookmarks"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
-        >
-          Contact
-        </Link>
-        <div className="w-full bg-black h-[0.075rem] dark:bg-zinc-600 scale-0 peer-hover:scale-100 transition-all duration-300"></div>
-      </div>
-      <div>
-        <Link
-          to="bookmarks"
-          className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
         >
           Bookmarks
         </Link>
@@ -56,9 +42,8 @@ const Navlink = ({ setMobileNav }) => {
       </div>
       <div>
         <Link
-          to="skills"
+          to="/skills"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
-          onClick={() => setMobileNav(false)}
         >
           Skills
         </Link>

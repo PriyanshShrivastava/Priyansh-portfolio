@@ -21,9 +21,9 @@ const Socials = () => {
       <Link
         to="https://read.cv/priyansh"
         target="_blank"
-        className=" text-zinc-700 dark:text-white flex space-x-2 items-center  border-[0.025rem] px-6 py-2 dark:border-zinc-800 border-slate-200 rounded-md"
+        className=" text-zinc-700 dark:text-white flex space-x-2 items-center  border-[0.025rem] px-3 md:px-6 py-2 dark:border-zinc-800 border-slate-200 rounded-md"
       >
-        <span className="font-semibold text-lg md:text-xl">Resume</span>
+        <span className="font-semibold text-md md:text-xl">Resume</span>
         <i className="fa-solid fa-arrow-up-right-from-square text-zinc-700 dark:text-white font-semibold text-xs md:text-md"></i>
       </Link>
       <Link

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "./Footer";
 import Header from "./Header";
 import Socials from "../components/Socials";
 
@@ -13,7 +12,7 @@ const Layout = ({ children, title, description, keywords }) => {
         <meta name="keywords" content={keywords} />
         <title>{title}</title>
       </Helmet>
-      <div className="py-10 md:py-24 transition-all duration-300 min-h-screen">
+      <div className="py-10 md:py-16 transition-all duration-300 min-h-[95vh] md:min-h-[57vh]">
         <React.StrictMode>
           <Header />
         </React.StrictMode>
