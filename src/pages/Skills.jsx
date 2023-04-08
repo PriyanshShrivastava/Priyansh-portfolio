@@ -12,34 +12,45 @@ const Skills = () => {
           <h2 className="w-full text-zinc-600 dark:text-white font-semibold text-md md:text-lg ">
             Front End{" "}
           </h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-3 ">
             <p>HTML</p>
             <p>CSS</p>
             <p>Tailwindcss</p>
             <p>Bootstrap</p>
             <p>ReactJS</p>
             <p>Material UI</p>
-            <p>Redux Toolkit</p>
+            <p>Redux-Toolkit</p>
           </div>
         </div>
         <div className=" w-full  lg:w-4/5 flex flex-col text-zinc-700 dark:text-white space-y-4 border-[0.025rem] py-6 px-4 dark:border-zinc-800 border-slate-200 rounded-md mx-auto items-start">
           <h2 className="w-full text-zinc-600 dark:text-white font-semibold text-md md:text-lg ">
             Back End{" "}
           </h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-3">
             <p>Javascript</p>
             <p>Nodejs</p>
             <p>Express</p>
-            <p>Socket.io</p>
+            <p>Mongoose</p>
           </div>
         </div>
         <div className=" w-full  lg:w-4/5 flex flex-col text-zinc-700 dark:text-white space-y-4 border-[0.025rem] py-6 px-4 dark:border-zinc-800 border-slate-200 rounded-md mx-auto items-start">
           <h2 className="w-full text-zinc-600 dark:text-white font-semibold text-md md:text-lg ">
             Database{" "}
           </h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-3">
             <p>MongoDB</p>
             <p>MySQL</p>
+          </div>
+        </div>
+        <div className=" w-full  lg:w-4/5 flex flex-col text-zinc-700 dark:text-white space-y-4 border-[0.025rem] py-6 px-4 dark:border-zinc-800 border-slate-200 rounded-md mx-auto items-start">
+          <h2 className="w-full text-zinc-600 dark:text-white font-semibold text-md md:text-lg ">
+            Others{" "}
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            <p>Postman</p>
+            <p>Git</p>
+            <p>Github</p>
+            <p>Google Cloud Platform</p>
           </div>
         </div>
       </div>
