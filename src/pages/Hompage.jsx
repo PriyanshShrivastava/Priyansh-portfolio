@@ -4,7 +4,7 @@ import Layout from "../layout/Layout";
 const Hompage = () => {
   return (
     <Layout>
-      <div className="w-full md:w-2/3 transition-all duration-300 mx-auto py-10 md:py-16 flex flex-col space-y-6">
+      <div className="w-full sm:w-4/5 md:w-2/3 transition-all duration-300 mx-auto py-10 md:py-16 flex flex-col space-y-6">
         <h2 className="text-zinc-600 dark:text-white font-semibold text-xl md:text-2xl px-8 md:px-32 ">
           Who am I ?
         </h2>

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navlink = () => {
+const Navlink = ({ setMobileNav }) => {
   return (
     <>
       <div>
         <Link
           to="/"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Home
         </Link>
@@ -17,6 +18,7 @@ const Navlink = () => {
         <Link
           to="/blogs"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Blogs
         </Link>
@@ -26,6 +28,7 @@ const Navlink = () => {
         <Link
           to="projects"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Projects
         </Link>
@@ -35,6 +38,7 @@ const Navlink = () => {
         <Link
           to="contact"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Contact
         </Link>
@@ -44,6 +48,7 @@ const Navlink = () => {
         <Link
           to="bookmarks"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Bookmarks
         </Link>
@@ -53,6 +58,7 @@ const Navlink = () => {
         <Link
           to="skills"
           className="dark:text-white text-zinc-700 peer focus:text-black active:text-black"
+          onClick={() => setMobileNav(false)}
         >
           Skills
         </Link>
