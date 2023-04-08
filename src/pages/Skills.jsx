@@ -28,6 +28,7 @@ const Skills = () => {
           </h2>
           <div className="flex flex-wrap gap-3">
             <p>Javascript</p>
+            <p>Java</p>
             <p>Nodejs</p>
             <p>Express</p>
             <p>Mongoose</p>
