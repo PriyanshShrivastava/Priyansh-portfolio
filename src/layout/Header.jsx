@@ -47,7 +47,7 @@ const Header = () => {
       ></i>
       {mobileNav && (
         <div
-          className="w=full h-screen overflow-y-hidden flex flex-col bg-white dark:bg-black absolute bottom-0 left-0 right-0 top-0 justify-center items-center space-y-10 transition-all duration-1000 font-semibold"
+          className="w=full h-screen overflow-y-hidden flex flex-col bg-white dark:bg-black absolute bottom-0 left-0 right-0 top-0 justify-center items-center space-y-10 transition-all duration-1000 font-semibold z-40"
           style={{
             backgroundImage:
               'url("https://www.transparenttextures.com/patterns/otis-redding.png")',
@@ -60,7 +60,7 @@ const Header = () => {
             {" "}
             <i className="fa-solid fa-xmark dark:text-white text-black cursor-pointer "></i>
           </button>
-          <Navlink />
+          <Navlink setMobileNav={setMobileNav} />
         </div>
       )}
     </div>
