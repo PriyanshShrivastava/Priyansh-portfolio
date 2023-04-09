@@ -22,14 +22,14 @@ const Projects = () => {
           </div>
           <div className="flex space-x-4 items-center">
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://kool-kicks-exclusives.netlify.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/kool-kicks"
               target="_blank"
             >
@@ -52,14 +52,14 @@ const Projects = () => {
           </div>
           <div className="flex space-x-4 items-center">
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-900 hover:bg-neutral-100 "
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100 "
               to="https://block-watch.vercel.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/BlockWatch"
               target="_blank"
             >
@@ -82,14 +82,14 @@ const Projects = () => {
           </div>
           <div className="flex space-x-4 items-center">
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://cowrite-production.up.railway.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/CoWrite"
               target="_blank"
             >
@@ -111,14 +111,14 @@ const Projects = () => {
           </div>
           <div className="flex space-x-4 items-center">
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-900 hover:bg-neutral-100 "
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100 "
               to="https://shadow-github-finder.netlify.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/Github-Finder"
               target="_blank"
             >
@@ -140,14 +140,14 @@ const Projects = () => {
           </div>
           <div className="flex space-x-4 items-center">
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-900 hover:bg-neutral-100 "
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100 "
               to="https://shadow-skywatch.netlify.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
-              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-900 hover:bg-neutral-100"
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/SkyWatch"
               target="_blank"
             >
