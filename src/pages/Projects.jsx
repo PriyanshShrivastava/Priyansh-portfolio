@@ -10,7 +10,7 @@ const Projects = () => {
           Projects
         </h1>
         <div className=" w-full flex flex-col space-y-6 md:space-y-0 md:flex-row justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
-          <div id="blog-desc" className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Kool Kicks
             </h2>
@@ -39,7 +39,7 @@ const Projects = () => {
           <div className="md:hidden w-2/3 h-[0.025rem] dark:bg-slate-500 bg-zinc-400 "></div>
         </div>
         <div className=" w-full flex flex-col md:flex-row space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
-          <div id="blog-desc" className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Blockwatch
             </h2>
@@ -69,7 +69,7 @@ const Projects = () => {
           <div className="md:hidden w-2/3 h-[0.025rem] dark:bg-slate-500 bg-zinc-400 "></div>
         </div>
         <div className=" w-full flex flex-col md:flex-row  space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
-          <div id="blog-desc" className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Cowrite
             </h2>
@@ -99,7 +99,7 @@ const Projects = () => {
           <div className="md:hidden w-2/3 h-[0.025rem] dark:bg-slate-500 bg-zinc-400 "></div>
         </div>
         <div className=" w-full flex flex-col md:flex-row  space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
-          <div id="blog-desc" className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Github Finder
             </h2>
@@ -128,7 +128,7 @@ const Projects = () => {
           <div className="md:hidden w-2/3 h-[0.025rem] dark:bg-slate-500 bg-zinc-400 "></div>
         </div>
         <div className=" w-full flex flex-col md:flex-row  space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
-          <div id="blog-desc" className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
               Skywatch
             </h2>
@@ -149,6 +149,35 @@ const Projects = () => {
             <Link
               className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
               to="https://github.com/PriyanshShrivastava/SkyWatch"
+              target="_blank"
+            >
+              Github
+            </Link>
+          </div>
+          <div className="md:hidden w-2/3 h-[0.025rem] dark:bg-slate-500 bg-zinc-400 "></div>
+        </div>
+        <div className=" w-full flex flex-col md:flex-row  space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
+          <div className="flex flex-col space-y-3">
+            <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
+              UrbanRider
+            </h2>
+            <p className="text-zinc-600 dark:text-white text-sm md:text-md w-11/12">
+              {" "}
+              UrbanRider is a bike rental service UI only website where you can
+              see all the bikes and choose the one to rent.
+            </p>
+          </div>
+          <div className="flex space-x-4 items-center">
+            <Link
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100 "
+              to="https://urbanrider.netlify.app/"
+              target="_blank"
+            >
+              Live
+            </Link>
+            <Link
+              className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
+              to="https://github.com/PriyanshShrivastava/urbanRider"
               target="_blank"
             >
               Github
