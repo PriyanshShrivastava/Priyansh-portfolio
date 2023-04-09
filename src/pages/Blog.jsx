@@ -10,7 +10,7 @@ const Blog = () => {
           Blogs
         </h1>
         <Link
-          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto px-2 py-6 md:px-4 group"
           to="https://priyanshshrivastava.hashnode.dev/destructuring-arrays-in-javscript"
           target="_blank"
         >
@@ -27,7 +27,7 @@ const Blog = () => {
           <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
         </Link>
         <Link
-          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100 rounded-md lg:w-4/5 mx-auto px-2 py-6 md:px-4 group"
           to="https://priyanshshrivastava.hashnode.dev/hoisting-in-javascript"
           target="_blank"
         >
@@ -45,7 +45,7 @@ const Blog = () => {
           <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
         </Link>
         <Link
-          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100  rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group"
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100  rounded-md lg:w-4/5 mx-auto px-2 py-6 md:px-4 group"
           to="https://priyanshshrivastava.hashnode.dev/git-and-github-how-i-understand-it-part-1"
           target="_blank"
         >
@@ -57,6 +57,24 @@ const Blog = () => {
               {" "}
               A detailed explanation of GIT with an exiting and real life
               example.
+            </p>
+          </div>
+          <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
+        </Link>
+        <Link
+          className=" w-full flex justify-between items-center dark:hover:bg-neutral-900 hover:bg-neutral-100  rounded-md lg:w-4/5 mx-auto px-2 py-6 md:px-4 group"
+          to="https://priyanshshrivastava.hashnode.dev/understanding-vagrant"
+          target="_blank"
+        >
+          <div id="blog-desc" className="flex flex-col space-y-3">
+            <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
+              Understanding vagrant (A beginner's guide)
+            </h2>
+            <p className="text-zinc-600 dark:text-white text-sm md:text-md w-11/12">
+              {" "}
+              A explanation of Vagrant and how to use it. Vagrant is an
+              open-source tool that helps us to automate the creation and
+              management of Virtual Machines.
             </p>
           </div>
           <i className="fa-solid fa-arrow-right hidden sm:block group-hover:dark:text-white dark:text-zinc-500 text-neutral-400 group-hover:text-zinc-600"></i>
