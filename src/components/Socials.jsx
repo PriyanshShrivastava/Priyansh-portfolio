@@ -22,7 +22,7 @@ const Socials = () => {
         </Link>
       </div>
       <Link
-        to="https://drive.google.com/file/d/1A4C2lAldSutfB3r1gCtevshuqHC7bjVt/view?usp=sharing"
+        to="https://drive.google.com/file/d/1NCh69-6w2pWDGALJZZzRp26iPONH659E/view?usp=sharing"
         target="_blank"
         className=" text-zinc-700 dark:text-white flex space-x-2 items-center  border-[0.025rem] px-3 md:px-6 py-2 dark:border-zinc-800 border-slate-200 rounded-md"
       >
