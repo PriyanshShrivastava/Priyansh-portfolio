@@ -101,25 +101,25 @@ const Projects = () => {
         <div className=" w-full flex flex-col md:flex-row  space-y-6 md:space-y-0 justify-between md:items-center rounded-md lg:w-4/5 mx-auto py-6 md:px-4 group">
           <div className="flex flex-col space-y-3">
             <h2 className="text-zinc-800 dark:text-white font-semibold text-sm md:text-lg">
-              Github Finder
+              FletNix
             </h2>
             <p className="text-zinc-600 dark:text-white text-sm md:text-md w-11/12">
               {" "}
-              It will give you a curated and highlighting stats and details
-              about the profile you search.
+              FletNix is a search and filtering app for TV shows and movies
+              available on Netflix.
             </p>
           </div>
           <div className="flex space-x-4 items-center">
             <Link
               className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md  dark:hover:bg-neutral-800 hover:bg-neutral-100 "
-              to="https://shadow-github-finder.netlify.app/"
+              to="https://fletnix-search.vercel.app/"
               target="_blank"
             >
               Live
             </Link>
             <Link
               className="text-zinc-700 dark:text-white border-[0.025rem] px-3 py-2 dark:border-zinc-800 border-slate-200 rounded-md dark:hover:bg-neutral-800 hover:bg-neutral-100"
-              to="https://github.com/PriyanshShrivastava/Github-Finder"
+              to="https://github.com/PriyanshShrivastava/FletNix-Frontend"
               target="_blank"
             >
               Github
